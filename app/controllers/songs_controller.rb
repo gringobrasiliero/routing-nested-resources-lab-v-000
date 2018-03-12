@@ -11,6 +11,8 @@ if @artist == nil
 else 
   @songs = Song.all
 end
+end
+
 
   def show
     @song = Song.find(params[:id])
